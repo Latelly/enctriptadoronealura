@@ -178,8 +178,7 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: var(--White-Blue);
-
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
