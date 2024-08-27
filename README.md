@@ -2,7 +2,7 @@
 
 Este proyecto es una aplicación web simple que encripta y desencripta texto utilizando un conjunto de sustituciones de letras. El texto ingresado se encripta reemplazando ciertas letras con cadenas específicas, y puede desencriptarse de vuelta a su forma original. La interfaz está diseñada tomando un modelo de FIGAMA de Alura.
 
- **Características **
+ **Características**
  
 - Encriptación de texto: Convierte vocales en cadenas predefinidas.
 - Desencriptación de texto: Restaura las cadenas encriptadas a las vocales originales.
@@ -32,4 +32,10 @@ Las sustituciones son las siguientes:
 - JavaScript
 
 **Observacion**
+
 Si el texto es copiado de otro lugar y pegado para encriptarlo, el encriptador quita las letras que tienen acentos, símbolos y caracteres especiales, por lo que las palabras que contengan acentos y caracteres especiales quedaran cortadas (esto no pude resolverlo).
+
+**Se puede vizualisar aca:**
+https://latelly.github.io/enctriptadoronealura/
+![Captura de pantalla 2024-08-27 002437](https://github.com/user-attachments/assets/3716ed26-fa78-4538-a5bb-4b9ba36334e8)
+
