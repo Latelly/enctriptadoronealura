@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/icono.ico">
+
+</head>
+
+<body>
+    <main>
+        <div class="logo">
+            <img src="./img/logo.svg" alt="Logo Alura">
+        </div>
+        <div class="texto">
+            <div class="contenedor-mensaje">
+                <textarea name="" id="ingreso-texto" placeholder="Ingrese el texto aqui"></textarea>
+                <div class="botonera">
+                    <small> <img src="./img/alerta.svg" alt="">Solo letras minúsculas y sin acentos</small>
+                    <div class="botones">
+                        <button class="button btn-uno">Encriptar</button>
+                        <button class="button btn-dos">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor-resultado">
+            <div class="resultado">
+                <div class="no-encontrado">
+                    <img src="./img/imagen.png" alt="Imagen Ilustrativa" class="imagen">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <div class="encontrado hidden">
+                    <div class="mensaje">
+                        <h3>
+                        </h3>
+                    </div>
+                    <button class="button btn-dos hidden">Copiar</button>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <h6 class="txt_footer">Desarrollado por Fabrizio Benavides para Oracle ONE - Alura Latam 2024</h6>
+    </footer>
+
+    <script src="./encriptador.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</body>
+
+</html>
